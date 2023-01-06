@@ -7,9 +7,7 @@ int main()
 {
     cout << "Press Enter 3 times to reveal your future.";
     cin.get();
-    cin.get();
-    cin.get();
-    srand(time(0));
+    stand(time());
     int x = rand()%9;
     if(x == 0) cout << "You will get A in this 261102.";
     else if (x == 1) cout << "You will get B+ in this 261102.";
@@ -21,5 +19,5 @@ int main()
     else if (x == 7) cout << "You will get F in this 261102.";
     else if (x == 8) cout << "You will get W in this 261102.";
     return 0;
-
+    
 }
